@@ -21,3 +21,4 @@ jobs:
       tag_name_suffix: humble
       remove_suffix: true
       context: .
+      runner: ubuntu-latest
