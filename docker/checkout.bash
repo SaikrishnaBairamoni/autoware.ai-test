@@ -40,6 +40,6 @@ elif [[ "$BRANCH" == "carma-master" ]]; then
       BRANCH=master
 fi
 cd "${dir}"/autoware.ai
-git clone --depth=1 https://github.com/usdot-fhwa-stol/carma-msgs.git --branch "$BRANCH"
-git clone --depth=1 https://github.com/usdot-fhwa-stol/carma-utils.git --branch "$BRANCH"
-git clone --depth=1 https://github.com/usdot-fhwa-stol/autoware.auto.git --branch "$BRANCH"
+git clone --depth=1 https://github.com/SaikrishnaBairamoni/carma-msgs-test --branch "$BRANCH"
+git clone --depth=1 https://github.com/SaikrishnaBairamoni/carma-utils-test.git --branch "$BRANCH"
+git clone --depth=1 https://github.com/SaikrishnaBairamoni/autoware.auto-test.git --branch "$BRANCH"
